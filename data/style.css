@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--color1: #FFB2AA;
+	--color2: #D4746A;
+	--color3: #AA4439;
+	--color4: #801F15;
+	--color5: #550800;
+	
+	--font-principal: Arial, Helvetica, Verdana, sans-serif;
+}
+
+body{
+	font-family: var(--font-principal);
+	background-color: var(--color2);
+}
