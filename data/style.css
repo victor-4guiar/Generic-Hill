@@ -17,5 +17,56 @@
 
 body{
 	font-family: var(--font-principal);
+	color: #282828;
 	background-color: var(--color2);
+}
+
+main{
+	background-color: white;
+	max-width: 650px;
+	min-width: 360px;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px auto 10px auto;
+	box-shadow: 2px 2px 4px var(--color3);
+}
+
+main h1, h2{
+	margin-bottom: 10px;
+}
+
+p{
+	margin-bottom: 5px;
+	font-weight: semi-bold;
+}
+
+main img{
+	display: block;
+	min-width: 50%;
+	margin: auto;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+footer{
+	display: block;
+	background-color: var(--color1);
+	box-shadow: 2px 2px 2px var(--color3);
+	margin: 10px 0px 10px 0px;
+}
+
+footer p{
+	padding: 2px;
+	text-align: center;
+	text-shadow: 1px 1px 3px var(--color2);
+}
+
+footer a{
+	color: #282828;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
 }
