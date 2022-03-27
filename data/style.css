@@ -18,7 +18,26 @@
 body{
 	font-family: var(--font-principal);
 	color: #282828;
+	background-color: var(--color3);
+}
+
+header{
 	background-color: var(--color2);
+	padding: 15px;
+	text-align: center;
+	box-shadow: 2px 2px 3px var(--color4);
+}
+
+header h1{
+	color: #F9F9F9;
+	font-size: 2.5em;
+	text-shadow: 2px 2px 2px var(--color4);
+}
+
+header p{
+	color: #F9F9F9;
+	font-size: 1.3em;
+	text-shadow: 2px 2px 2px var(--color4);
 }
 
 main{
@@ -26,13 +45,19 @@ main{
 	max-width: 650px;
 	min-width: 360px;
 	padding: 15px;
-	border-radius: 5px;
-	margin: 10px auto 10px auto;
-	box-shadow: 2px 2px 4px var(--color3);
+	border-radius: 0px 0px 5px 5px;
+	margin: 0px auto 10px auto;
+	box-shadow: 2px 2px 4px var(--color4);
 }
 
 main h1, h2{
 	margin-bottom: 10px;
+}
+
+main p{
+	text-align: justify;
+	margin-bottom: 10px;
+	text-indent: 15px;
 }
 
 p{
@@ -49,20 +74,21 @@ main img{
 }
 
 footer{
+	color: #E1E1E1;
 	display: block;
-	background-color: var(--color1);
-	box-shadow: 2px 2px 2px var(--color3);
+	background-color: var(--color2);
+	box-shadow: 2px 2px 2px var(--color4);
 	margin: 10px 0px 10px 0px;
 }
 
 footer p{
 	padding: 2px;
 	text-align: center;
-	text-shadow: 1px 1px 3px var(--color2);
+	text-shadow: 1px 1px 3px var(--color4);
 }
 
 footer a{
-	color: #282828;
+	color: #E1E1E1;
 	font-weight: bold;
 	text-decoration: none;
 }
